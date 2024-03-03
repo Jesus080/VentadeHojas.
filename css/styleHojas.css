@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgb(3, 202, 233) ; /*Color de fondo*/
+}
+h3{
+    color:lightgoldenrodyellow; /*Color de letra*/
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+}
+.content-form{ 
+    width: 450px; /*tamano ancho*/
+    background:darkseagreen;
+    margin: auto;
+    margin-top: 50px;
+    border: 5px solid lightgoldenrodyellow;/*grosor-stilo y color borde*/
+    border-radius: 15px; /*redondear esquinas*/
+    padding: 30px;
+}
+.controles{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    padding: 5px;
+    border: 3px solid lightgoldenrodyellow;
+    border-radius: 10px;
+}
+/*selector de id*/
+#botones{
+    background: darkkhaki;
+    color: darkcyan;
+   
+     
+}
+#botones:hover{
+    background:goldenrod;
+    cursor: pointer;
+    color: lightgoldenrodyellow;
+    
+}
+select{
+    border: 5px solid lightgoldenrodyellow;/*grosor-stilo y color borde*/
+    border-radius: 15px; /*redondear esquinas*/
+    background:darkkhaki ;
+    color: darkolivegreen;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta Hojas</title>
+    <link rel="stylesheet" href="css/styleHojas.css">
+</head>
+<body>
+    <form class="content-form" id="frmHojas">
+        <h3>.:VENTA DE HOJAS:.</h3>
+        <label for="articulo">Seleccione el tipo de artículo:</label>
+        <select id="selectarticulo" class="controles">
+            <option value="">--Seleccione el articulo--</option>
+            <option value="hielo">Hojas de Hielo</option>
+            <option value="vigeta">Vigetas</option>
+            <option value="armazon">Armazones</option>
+        </select>
+        <input id="txtcantidadObj" class="controles" type="number" placeholder="Ingrese la cantidad">
+        <input id="txtprecio" class="controles" type="number" placeholder="Ingrese el precio unitario">
+        <label>¿Tipo de pago ?</label>
+        <select id="selectTipoPago" class="controles" size="1">
+            <option value="noSelecciona">--Seleccione tipo de pago--</option>
+            <option value="efectivo">Efectivo</option>
+            <option value="tarjeta">Tarjeta</option>
+
+        </select>
+        <button class="controles" id="botones">Calcular Costo</button>
+        <button class="controles"  id="botones" type="reset">Cancelar</button>
+        <h5 id="resultado"></h5>
+
+    </form>
+    <script src="js/hojass.js"></script>
+
+</body>
+</html>
